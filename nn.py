@@ -9,7 +9,7 @@ n = [64, 128, 128, 128, 10]
 
 def sigma(y):
     if y < 0:
-        return 1
+        return 0
     else:
         return y
 
